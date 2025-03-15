@@ -1198,7 +1198,9 @@ footer {
     .treatment_sec .heading h1 {
         font-size: 40px !important;
     }
-
+    .treatment_sec .sub_head{
+        font-size: 15px;
+    }
     .icon-info {
         display: flex;
         flex-direction: column;
