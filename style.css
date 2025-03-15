@@ -9,8 +9,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 80px;
     background-color: #f8f9fa;
-    overflow-x: hidden;
-    overflow: hidden;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: auto; 
 }
 
 :root {
@@ -1200,7 +1200,7 @@ footer {
     }
 
     .margin-img {
-        margin-left: 0;
+        margin-left: auto;
     }
 
 }
