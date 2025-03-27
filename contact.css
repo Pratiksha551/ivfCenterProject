@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Urbanist", sans-serif;
+}
+body, html {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: auto; /* Allow vertical scrolling */
+    height: 100%; /* Ensure the body takes the full height */
+}
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#ffffff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+}
+
+h1, h2,h3,h4,h5{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var( --bs-dark-color);
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var( --bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hero-section{
+    background-image: url(Images/about-hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    position: relative;
+}
+.ban_content {
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    top: 100px;
+}
+.ban_content .headingone{
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.77);
+    font-family: "Impact" !important;
+    margin-bottom: 0;
+    font-size: 70px;
+    letter-spacing: 2px;
+    line-height: 86px;
+}
+.ban_content p{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-right: 70px;
+    color: rgba(255, 255, 255, 0.77);
+    font-size: 32px;
+    line-height: 40px;
+}
+.ban_btn{
+    text-align: left;
+}
+.ban_btn a{
+    margin-top: 20px;
+}
+/* shade divider  start*/
+.custom-shape-divider-bottom-1742208651 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1742208651 svg {
+    position: relative;
+    display: block;
+    width: calc(126% + 1.3px);
+    height: 155px;
+}
+
+.custom-shape-divider-bottom-1742208651 .shape-fill {
+    fill: #f5f0f0;
+}
+/*shape divider end */
+
+/* contact section */
+.contact-section  .heading{
+    text-align: center;
+    margin-bottom: 4rem !important;
+    border-left: none;
+    border-bottom: 10px solid palevioletred;
+}
+.contact-section .heading h2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #192852;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+.contact-section .heading p{
+    margin-bottom:1rem;
+    font-size: 30px;
+    font-weight: 400;
+    color: #2c497b;
+    padding-right: 70px;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info-box{
+   text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.info-box{
+    padding: 20px;
+}
+.info-box .info-head{
+    margin-bottom: 2rem;
+    color: #192852;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+.info-body p{
+    margin-bottom:1rem;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2c497b;
+    text-align: left;
+    letter-spacing: 0.6px;
+    line-height:2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.map{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.map iframe {
+    width: 100%;
+    height: 292px; /* Adjust height as needed */
+    border: none;
+}
+/* contact section */
+.form-section{
+    background-image: url('Images/shape.avif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.form-section .contact-box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.form-section .contact-box:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+

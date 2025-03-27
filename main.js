@@ -31,3 +31,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+// openCloseModal 
+let isStatus = true;
+
+        function openCloseModal() {
+            let modal = document.querySelector(".modal");
+            if (isStatus) {
+                modal.style.display = "flex";
+                isStatus = false; 
+            } else {
+                modal.style.display = "none";
+                isStatus = true;
+            }
+        }
+
+        window.onload = function() {
+            openCloseModal();
+        };
